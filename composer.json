@@ -3,7 +3,6 @@
   "type": "package",
   "license": "MIT",
   "description": "WordPress package to enable a basic controller. Based on sober/controller.",
-  "homepage": "https://github.com/soberwp",
   "authors": [
     {
       "name": "Alex Batalov",
