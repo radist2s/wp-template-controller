@@ -8,15 +8,15 @@ use Brain\Hierarchy\Hierarchy;
 class Loader
 {
     // Dep
-    private $hierarchy;
+    protected $hierarchy;
 
     // User
-    private $namespace;
-    private $path;
+    protected $namespace;
+    protected $path;
 
     // Internal
-    private $listOfFiles;
-    private $classesToRun = [];
+    protected $listOfFiles;
+    protected $classesToRun = [];
 
     /**
      * Construct

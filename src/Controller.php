@@ -15,16 +15,16 @@ class Controller
     protected $data = [];
 
     // Controller
-    private $class;
-    private $methods;
-    private $dataMethods;
-    private $staticMethods;
+    protected $class;
+    protected $methods;
+    protected $dataMethods;
+    protected $staticMethods;
 
     // Loader
-    private $incomingData;
+    protected $incomingData;
 
     // Deps
-    private $classAcf;
+    protected $classAcf;
 
     /**
      * Before
